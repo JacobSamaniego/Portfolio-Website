@@ -78,8 +78,9 @@ header p {
     width: 200px;
     height: 200px;
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: transform 0.5s ease;
     justify-content: center;
+    position: absolute;
 }
 
 .grid-2 {
@@ -89,10 +90,10 @@ header p {
     width: 200px;
     height: 200px;
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: transform 0.5s ease;
     justify-content: center;
     position: absolute;
-    pointer-events: none;
+    
     visibility: collapse;
 }
 
@@ -107,13 +108,16 @@ header p {
     width: 200px;
     height: 200px;
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: transform 0.5s ease;
     place-items: center;
     justify-items: center;
     
 }
 
-
+.grid-wrapper {
+    position: relative;
+    width: 200px;
+}
   
 
 .projects-section {
@@ -173,3 +177,12 @@ button p {
     visibility: hidden;
 }
 
+
+
+.grid-1 {
+    transform: translateX(0); 
+}
+
+.grid-2 {
+    transform: translateX(100%); 
+}
