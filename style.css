@@ -82,6 +82,10 @@ header p {
     justify-content: center;
 }
 
+#project-grid-1 {
+    visibility: visible;
+}
+
 .project {
     display: grid;
     border: 2px solid white;
@@ -101,7 +105,6 @@ header p {
 .projects-section {
     display: flex;
     justify-content: center;
-    border: 2px solid red;
     height: 500px;
 }
 
@@ -142,12 +145,9 @@ button p {
 }
 
 .left-projects, .right-projects {
-    border: 1px solid red;
     width: 350px;
     height: 400px;
+    place-content: center;
     
 }
 
-#project-link {
-    
-}
