@@ -64,7 +64,10 @@ header p {
 }
 
 #projects {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
     
 }
 
@@ -98,8 +101,12 @@ header p {
 }
 
 #project-title {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 45%;
+    margin-right: 55%;
+}
+
+button {
+    all: unset;
 }
 
 .right-arrow, .left-arrow {
@@ -109,14 +116,30 @@ header p {
     width: 100px;
     margin-top: 3%;
 }
+.right-arrow {
+    margin-right: 20px;
+}
+
+.left-arrow {
+    margin-left: 20px;
+}
 
 .project-buttons {
     display: flex;
     gap: 150px;
 }
 
-.right-arrow .arrow, .left-arrow .arrow {
+button p {
     display: flex;
     justify-content: center;
-    margin-top: 175px;
+    margin-top: 25%;
+    font-size: x-large;
 }
+
+.left-projects, .right-projects {
+    border: 1px solid red;
+    width: 350px;
+    height: 400px;
+    
+}
+
