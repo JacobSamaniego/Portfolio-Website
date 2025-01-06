@@ -57,3 +57,44 @@ header p {
     border-top: 2px dashed #b22222;
     z-index: 0;
 }
+
+#introduction p {
+    display: flex;
+    justify-content: center;
+}
+
+#projects {
+    display: block;
+    
+}
+
+.projects-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+.project {
+    display: grid;
+    border: 2px solid white;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+.projects-section {
+    display: flex;
+    justify-content: center;
+}
+
+#project-title {
+    margin-left: 25%;
+    margin-right: 25%;
+}
