@@ -101,3 +101,22 @@ header p {
     margin-left: 25%;
     margin-right: 25%;
 }
+
+.right-arrow, .left-arrow {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 376px;
+    width: 100px;
+    margin-top: 3%;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 150px;
+}
+
+.right-arrow .arrow, .left-arrow .arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 175px;
+}
