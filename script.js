@@ -6,7 +6,7 @@ const pacmanMultithread = document.getElementById("pacman-multithread");
 const paragraphRight = document.getElementById("right-project");
 
 
-const gridOne  = document.getElementsByClassName("projects-grid-1");
+const gridOne  = document.getElementsByClassName("grid-1");
 const leftArrow = document.getElementsByClassName("left-arrow")
 
 

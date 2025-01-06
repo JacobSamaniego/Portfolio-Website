@@ -71,7 +71,7 @@ header p {
     
 }
 
-.projects-grid-1 {
+.grid-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -82,7 +82,21 @@ header p {
     justify-content: center;
 }
 
-#project-grid-1 {
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    justify-content: center;
+    position: absolute;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+#project-grid {
     visibility: visible;
 }
 
@@ -106,6 +120,7 @@ header p {
     display: flex;
     justify-content: center;
     height: 500px;
+    
 }
 
 #project-title {
@@ -135,6 +150,8 @@ button {
 .project-buttons {
     display: flex;
     gap: 150px;
+    position: relative;
+    justify-content: center;
 }
 
 button p {
@@ -150,4 +167,6 @@ button p {
     place-content: center;
     
 }
+
+
 
