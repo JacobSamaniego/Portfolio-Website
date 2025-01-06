@@ -6,8 +6,10 @@ const pacmanMultithread = document.getElementById("pacman-multithread");
 const paragraphRight = document.getElementById("right-project");
 
 
-const gridOne  = document.getElementsByClassName("grid-1");
-const leftArrow = document.getElementsByClassName("left-arrow")
+const rightArrow = document.getElementsByClassName("right-arrow");
+const gridOne = document.querySelectorAll(".grid-1");
+const gridTwo = document.querySelectorAll(".grid-2");
+const leftArrow = document.getElementsByClassName("left-arrow");
 
 
 
@@ -34,4 +36,21 @@ const hideLeftArrow = () => {
         }
     }
 };
-hideLeftArrow()
+hideLeftArrow();
+
+
+
+
+rightArrow[0].onclick = function () {
+    console.log("click")
+    gridOne[0].style.visibility = "hidden";
+    gridTwo[0].style.visibility = "visible";
+    leftArrow[0].style.visibility = "visible";
+}
+
+leftArrow[0].onclick = function () {
+    console.log("left click")
+    gridOne[0].style.visibility = "visible";
+    gridTwo[0].style.visibility = "hidden";
+    leftArrow[0].style.visibility = "hidden";
+}
