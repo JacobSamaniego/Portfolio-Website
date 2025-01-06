@@ -169,5 +169,7 @@ button p {
     
 }
 
-
+#three, #four, #five, #six, #seven {
+    visibility: hidden;
+}
 

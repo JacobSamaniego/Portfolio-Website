@@ -46,6 +46,7 @@ rightArrow[0].onclick = function () {
     gridOne[0].style.visibility = "hidden";
     gridTwo[0].style.visibility = "visible";
     leftArrow[0].style.visibility = "visible";
+    rightArrow[0].style.visibility = "hidden";
 }
 
 leftArrow[0].onclick = function () {
@@ -53,4 +54,5 @@ leftArrow[0].onclick = function () {
     gridOne[0].style.visibility = "visible";
     gridTwo[0].style.visibility = "hidden";
     leftArrow[0].style.visibility = "hidden";
+    rightArrow[0].style.visibility = "visible";
 }
