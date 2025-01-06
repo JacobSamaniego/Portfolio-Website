@@ -76,6 +76,7 @@ header p {
     height: 200px;
     opacity: 1;
     transition: opacity 0.5s ease;
+    justify-content: center;
   }
 
 .project {
@@ -92,6 +93,8 @@ header p {
 .projects-section {
     display: flex;
     justify-content: center;
+    border: 2px solid red;
+    height: 500px;
 }
 
 #project-title {
